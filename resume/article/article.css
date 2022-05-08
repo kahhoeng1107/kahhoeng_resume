@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(rgba(30, 21, 4, 0.7),rgba(4,9,30,0.7)),url(../personalPages/treediagram.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 0px 20px;
+}
+
+header{
+    text-align: center;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    margin: auto;
+    color: azure;
+    padding-bottom: 15px;
+}
+
+.fyp-row{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: bisque;
+    padding: 0 15px;
+}
+
+#fypHeading{
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+
+.fypInfo div{
+    display: inline-block;
+    margin: 5px 40px;
+}
+
+.fypInfo p{
+    line-height: 200%;
+}
+
+.fypInfo{
+    text-align: center;
+    margin: auto;
+   
+}
+
+#fypHeading{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.fypPhoto{
+    text-align: center;
+    padding: 0px;
+}
+
+.fypReview{
+    text-align: justify;
+    padding: 20px;   
+}
+
+.fypReview p{
+    line-height: 200%;
+}
+
+.pd-row{
+    width: 80%;
+    margin: auto;
+    background-color: burlywood;
+    padding: 0 15px;
+}
+
+#pdHeading{
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+
+.pdInfo div{
+    display: inline-block;
+    margin: 5px 40px;
+}
+
+.pdInfo p{
+    line-height: 200%;
+}
+
+.pdInfo{
+    text-align: center;
+    margin: auto;
+   
+}
+
+#pdHeading{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.pdPhoto{
+    text-align: center;
+    padding: 10px;
+}
+
+.pdReview{
+    text-align: justify;
+    padding: 0px;   
+}
+
+.pdReview p{
+    line-height: 200%;
+}
+
+@media (max-width: 1000px){
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+}
