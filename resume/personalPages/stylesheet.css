@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(rgba(30, 21, 4, 0.7),rgba(4,9,30,0.7)),url(./kejut.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+
+.opening{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    background: transparent;
+}
+
+.topPage{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.topPage img{
+    width: 20%;
+    height: 80px;
+}
+
+.navLinks{
+    text-align: right;
+    flex: 1;
+}
+
+
+.navLinks ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 1% 0.3%;
+}
+
+.navLinks ul li a{
+    text-decoration: none;
+    color: floralwhite;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.navLinks ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navLinks ul li:hover::after{
+    width: 100%;
+}
+
+.opening h1{
+    font-variant: small-caps;
+    font-family: sans-serif, 'Times New Roman', Times;
+    background: transparent;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.div1{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+#description{
+    position: relative;
+    padding-left: 50px;
+}
+
+#description blockquote{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+img{
+    height: 90%;
+    width: 120%;
+    opacity: 0.8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
+    position: relative;
+}
+
+#personalInformation{
+    padding-bottom: 20px;
+}
+
+#personalInformation p{
+    line-height: 150%;
+}
+
+.coreSkills{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(55, 79, 71);
+    margin: auto;
+}
+
+.coreSkills h1{
+    font-variant: small-caps;
+    padding-top: 20px;
+    color:floralwhite;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.coreSkills-row{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+.coreSkills-column{
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+
+.coreSkills-column div{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 20px;
+    margin: auto; 
+}
+
+.coreSkills-column span{
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+.employmentHistory{
+    width: 100%;
+    background-color:darkkhaki;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.z-index{
+    z-index: 2;
+    background: transparent;
+    opacity: 1;
+    color: floralwhite;
+}
+
+.employmentHistory h1{
+    font-family: sans-serif;
+    font-variant: small-caps;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.employmentHistory-row{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.employmentHistory-column{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 30px 65px;
+    color: floralwhite;
+    
+}
+
+#employmentHistory-column-images{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+#employmentHistory-column-images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 70%;
+}
+
+.education{
+    width: 100%;
+}
+
+.education h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-variant: small-caps;
+    color: floralwhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.verifiedUser{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.material-icons.md-96{
+    font-size: 148px;
+    color: green;
+}
+
+.education-row{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    color:azure;
+    
+}
+
+#education-column{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid cornsilk;
+    width: 35%;
+    line-height: 200%;
+}
+
+#education-column ul li{
+    list-style-type: none;
+}
+
+.achievements{
+    width: 100%;
+    text-align: center;
+    background-color:burlywood;
+}
+
+.achievements h1{
+    color:azure;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.material-icons.md-2 {
+    font-size: 86px;
+    color: gray;
+}
+
+.achievements-row{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 30px;
+    
+}
+
+#achievements-column{
+    display: inline-block;
+    margin: 20px;
+}
+
+.achievementsList{
+    display: block;
+    list-style-type: none;
+    font-style: italic;
+    color: azure;
+}
+
+.achievementsList ul{
+    list-style-type: none;
+    padding: 15px;
+}
+
+.achievementsList i{
+    color: red;
+    display: none;
+}
+
+#achievements-column i:hover{
+    color: antiquewhite;
+    text-shadow: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.review{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    background-image: linear-gradient(rgba(30, 21, 4, 0.7),rgba(4,9,30,0.7)),url(./usmTree.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    box-sizing: border-box;
+    border: 2px solid floralwhite;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.review h1{
+    font-family: sans-serif;
+    font-variant: small-caps;
+    color: azure;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.review-row{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+#review-column{
+    display: inline-block;
+    text-align: center;
+    margin: 0 55px;
+}
+
+#review-column img{
+    width: 100%;
+    height: 250px;
+    border-radius: 70%;
+    border: 1px solid grey;
+    box-shadow: 2.5px 2.5px floralwhite;
+    margin-bottom: 15px;
+}
+
+#review-column p{
+    font-family: sans-serif;
+    color: floralwhite;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    color: floralwhite;
+    text-align: center;
+    background: transparent;
+    align-items: center;
+    margin: auto;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    margin-top: 45px;
+}
+
+footer h2{
+    padding-bottom: 15px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    
+}
+
+.footer a{
+    margin-right: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: floralwhite;
+    transition: 0.5s;
+}
+
+.footer a:hover{
+    color: blueviolet;
+}
+
+@media (max-width: 1000px){
+    #description, #personalInformation{
+        font-size: 11px;
+    }
+    .coreSkills-column{
+        flex-direction: column;
+        margin-bottom: 3.5px;
+        margin-top: 3.5px;
+        padding: 0px;
+    }
+    .coreSkills-column div{
+        margin-bottom: 7px;
+    }
+    .education-row{
+        flex-direction: column;
+    }
+    #education-column{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .topPage img{
+        width: 100%;
+        height: 80px;
+    }
+}
+
+@media (max-width: 700px){
+    .div1{
+        flex-direction: column;
+        text-align: center;
+    }
+    img{
+        height: 50%;
+        width: 50%;
+    }
+    #description{
+        margin: auto;padding-left: 0px;
+    }
+    .topPage{
+        flex-direction: column;
+    }
+
+}
+

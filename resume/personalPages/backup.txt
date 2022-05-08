@@ -1,0 +1,109 @@
+.coreSkills-column1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 250px;
+}
+
+.coreSkills-column1 div{
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.coreSkills{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(30, 21, 4, 0.7),rgba(4,9,30,0.7)),url(./usmTree.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+<script>
+        var achievementsColumn = document.getElementById("achievements-column")
+        function showMenu(){
+            achievementsColumn.style.display="block"
+        }
+        function hideMenu(){
+            achievementsColumn.style.display="none"
+        }
+    </script>
+
+#employmentHistory-column-images{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+#employmentHistory-column-images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 70%;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My FYP & PD</title>
+        <link rel="stylesheet" href="article.css">
+    </head>
+
+    <body>
+        <section>
+            
+        </section>
+    </body>
+</html>
+
+body{
+    background-image: linear-gradient(rgba(30, 21, 4, 0.7),rgba(4,9,30,0.7)),url(../personalPages/kejut.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+}
+
+.navLinks ul li{
+    content: "";
+    width: 100%;
+    height: 100px;
+    background: red;
+    display: block;
+    margin: auto;
+}
+
+.navLinks ul{
+    text-align: right;
+    padding-top: 20px;
+}
+
+.navLinks ul li{
+    display: inline;
+    list-style: none;
+    position: relative;
+    padding: 1% 0.3%;
+}
+
+.navLinks ul li a{
+    text-decoration: none;
+    color: floralwhite;
+    font-family: sans-serif;
+}
+
+.navLinks ul li::after{
+    content: "";
+    display: inline-block;
+    background-color: red;
+    width: 0%;
+    height: 10px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.navLinks ul li:hover::after{
+    width: 10px;
+}
