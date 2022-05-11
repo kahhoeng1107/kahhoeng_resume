@@ -396,14 +396,6 @@ footer h2{
     display: none;
 }
 
-.fa-solid.fa-bars:hover{
-    cursor:pointer;
-}
-
-.fa-solid.fa-xmark:hover{
-    cursor:pointer;
-}
-
 @media (max-width: 1000px){
     #description, #personalInformation{
         font-size: 11px;
@@ -443,6 +435,14 @@ footer h2{
         text-align: left;
         position: relative;
         margin: 10%;
+        cursor:pointer;
+    }
+    
+    .fa-solid.fa-bars:hover{
+        cursor:pointer;
+    }
+
+    .fa-solid.fa-xmark:hover{
         cursor:pointer;
     }
 
@@ -509,6 +509,14 @@ footer h2{
         text-align: left;
         position: relative;
         margin: 10%;
+        cursor:pointer;
+    }
+    
+    .fa-solid.fa-bars:hover{
+        cursor:pointer;
+    }
+
+    .fa-solid.fa-xmark:hover{
         cursor:pointer;
     }
 
