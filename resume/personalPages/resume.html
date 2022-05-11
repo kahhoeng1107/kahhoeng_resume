@@ -15,7 +15,8 @@
             <section class="opening">
                 <div class="topPage">
                 <img src="./logoUSM.jpg" alt="logoUSM">
-                <nav class="navLinks">
+                <div class="navLinks" id="nav-Links">
+                    <i class="fa-solid fa-bars" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="#coreSkills">Skills</a></li>
                         <li><a href="#employmentHistory">Employment</a></li>
@@ -23,7 +24,8 @@
                         <li><a href="#achievements">Achievements</a></li>
                         <li><a href="../article/article.html" target="_blank">FYP & PD</a></li>
                     </ul>
-                </nav>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
                 </div>
                 <h1>Personal Profile & Objective</h1>
                 <div class="div1">
@@ -293,6 +295,18 @@
                 <a class="fa-solid fa-phone fa-2xl" href="tel: 016-5173969" alt="myPhone"></a>
                 </div>
             </footer>
+            <script>
+
+                var navLinks = document.getElementById("nav-Links");
+                function showMenu(){
+                    navLinks.style.right="0";
+                }
+
+                function hideMenu(){
+                    navLinks.style.right="-200px";
+                }
+                
+              </script>
     </body>
 </html>
 
