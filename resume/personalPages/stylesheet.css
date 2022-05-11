@@ -427,7 +427,7 @@ footer h2{
         position: absolute;
         top: 3%;
         right: 3%;
-        
+        cursor:pointer;
     }
 
     .fa-solid.fa-xmark{
@@ -435,7 +435,7 @@ footer h2{
         text-align: left;
         position: relative;
         margin: 10%;
-        
+        cursor:pointer;
     }
 
     .navLinks{
@@ -447,7 +447,7 @@ footer h2{
         height: 100vh;
         z-index: 2;
         width: 200px;
-        transition: 1.5s;
+        transition: 0.5s;
         color: black;
     }
     
@@ -493,7 +493,7 @@ footer h2{
         position: absolute;
         top: 3%;
         right: 3%;
-        
+        cursor:pointer;
     }
 
     .fa-solid.fa-xmark{
@@ -501,7 +501,7 @@ footer h2{
         text-align: left;
         position: relative;
         margin: 10%;
-        
+        cursor:pointer;
     }
 
     .navLinks{
@@ -513,7 +513,7 @@ footer h2{
         height: 100vh;
         z-index: 2;
         width: 200px;
-        transition: 1.5s;
+        transition: 0.5s;
         color: black;
     }
     
