@@ -388,6 +388,14 @@ footer h2{
     color: blueviolet;
 }
 
+.fa-solid.fa-bars{
+    display: none;
+}
+
+.fa-solid.fa-xmark{
+    display: none;
+}
+
 @media (max-width: 1000px){
     #description, #personalInformation{
         font-size: 11px;
