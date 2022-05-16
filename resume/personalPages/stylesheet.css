@@ -251,6 +251,10 @@ img{
     list-style-type: none;
 }
 
+.fa-solid.fa-award{
+    color: gold;
+}
+
 .achievements{
     width: 100%;
     text-align: center;
