@@ -557,6 +557,10 @@ footer h2{
     .navLinks ul li a{
         color: black;
     }
+    
+    .review{
+        width: 80%;
+    }
 
 }
 
